@@ -1,0 +1,5 @@
+/* Pour fonctionner le site avait besoin d'un serveur http local ;
+- cmd dans windows pour ouvrir la console
+- cd \chemin\du\dossier\en\question
+- http server
+- copier l'id, coller dans le navigateur */

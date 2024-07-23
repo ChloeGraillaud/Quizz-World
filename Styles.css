@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(65, 132, 194);
+    margin: 0;
+    height: 100vh;
+    cursor: url('img/cursor_main_mini.png'), auto;
+}
+main {
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: "DM Serif Text", serif;
+}
+h2 {
+    color: white;
+    font-family: "DM Serif Text", serif;
+    font-size: 30px;
+}
+.card-header, .form-check-label {
+    font-family: "Great Vibes", cursive;
+    color: white;
+}
+p {
+    color: white;
+    font-family: "DM Serif Text", serif;
+
+}
+.card-header {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+}
+.form-check-label {
+    font-weight: bold;
+    font-size: 17px;
+}
+.card {
+    margin: 10px;
+    box-shadow: 10px 5px rgb(36, 36, 36);
+    background-color: rgb(255, 123, 0);
+    border: dotted 2px black;
+    border-radius: 25px;
+}
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.card-img-top {
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+.form-check-input[type="radio"] {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: rgb(255, 123, 0);
+    border: 2px solid #000;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-check-input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-primary, .btn-secondary {
+    background-color: rgb(255, 123, 0);
+    color:white;
+    box-shadow: 2px 2px black;
+}
+.bordurerecap {
+    border: 15px solid white;
+    border-radius: 25px;
+}
+.imgrecap {
+    border-radius: 25px;
+}
+.name-color {
+    color:rgb(53, 53, 53);
+}
+.dropzone {
+    background-color: white;
+    border: 2px dashed black;
+    transition: background-color 0.3s ease;
+}
+
+.dropzone.bg-success {
+    background-color: green !important;
+}
+
+.dropzone.bg-danger {
+    background-color: red !important;
+}
+.boutonoption {
+    background-color: rgb(255, 123, 0);
+    color:black;
+    border-radius: 25px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.btn-suivant {
+    background-color: rgb(255, 123, 0);
+    color:white;
+}
+.boutonoption:hover {
+    background-color: rgb(255, 123, 0) !important;
+    color: black !important;                     
+}
